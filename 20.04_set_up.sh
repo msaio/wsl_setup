@@ -100,6 +100,13 @@ select yn in "Yes" "No"; do
       # Install python
       sudo apt install python python3 -y
       # Install pip
+			sudo add-apt-repository universe
+			sudo apt update
+			sudo apt install python2
+			curl https://bootstrap.pypa.io/get-pip.py --output ~/get-pip.py
+			sudo python2 ~/get-pip.py
+			sudo apt install python3-pip
+			# Upgrade pip
       sudo python3 -m pip install pip --upgrade --force
       sudo python -m pip install pip --upgrade --force
       # Install c/c++ stuff
@@ -114,7 +121,7 @@ select yn in "Yes" "No"; do
       # 2nd, install Vim-Plug
       curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
       # 3rd, get public config file from github.com/msaio
-      curl -fLo ~/.config/nvim/init.vim https://raw.githubusercontent.com/msaio/hf/master/init.vim 
+      curl -fLo ~/.config/nvim/init.vim https://raw.githubusercontent.com/msaio/hf/master/U20.04/init.vim
       # 4th, install plugin
       nvim +PlugInstall +qall
       sudo python3 ~/.config/nvim/plugged/YouCompleteMe/install.py --clangd-completer
@@ -158,7 +165,7 @@ select yn in "Yes" "No"; do
           # 2nd, install bash_it
           ~/.bash_it/install.sh -s
           # 3rd, get public config file from github.com/msaio
-          curl -fLo ~/.bashrc https://raw.githubusercontent.com/msaio/hf/master/.bashrc
+          curl -fLo ~/.bashrc https://raw.githubusercontent.com/msaio/hf/master/U20.04/.bashrc
           # 4th, bash_it as default
           sudo chsh -s /bin/bash
 					source ~/.bashrc

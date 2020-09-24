@@ -135,6 +135,8 @@ I prefer [OhMyTmux](github.com/gpakosz/.tmux) from: github.com/gpakosz/.tmux
 
 
 ## --------------------------------------
-## You should check the file set_up.sh for detailed explaination.
+## There is currently only 2 set-up files for 2 versions 18.04 and 20.04.
+## The difference is not huge so, pretty much they are the same thing.
+## Detail explanation inside those files, check them out for more information.
 ## I hope you enjoy it,
 ## I will update more in future.
