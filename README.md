@@ -46,7 +46,7 @@ wsl wsl --set-default-version 2
 
 Then do the same thing as WSL 1 and done.
 
-### Step 3: This is my personal setup. I have made it easier just in a single file. All you have to do is download the set_up.sh and run:
+### Step 3: This is my personal setup. I have made it easier just in a single file. All you have to do is download the *set_up.sh and run:
 ```bash
 ./set_up.sh
 ```
