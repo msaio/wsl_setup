@@ -314,8 +314,8 @@ select yn in "Yes" "No"; do
       ln -s -f .tmux/.tmux.conf
       cp .tmux/.tmux.conf.local .
       # 4th, Get public settings
-			curl -fLo ~/.tmux.conf https://raw.githubusercontent.com/msaio/hf/master/.tmux.conf
-			curl -fLo ~/.tmux.conf.local https://raw.githubusercontent.com/msaio/hf/master/.tmux.conf.local
+			curl -fLo ~/.tmux.conf https://github.com/msaio/hf/blob/master/U18.04/.tmux.conf
+			curl -fLo ~/.tmux.conf.local https://github.com/msaio/hf/blob/master/U18.04/.tmux.conf.local
       break
       ;;
     No  )
