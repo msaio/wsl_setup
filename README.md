@@ -1,6 +1,6 @@
 # WSL_allInOne
 
-This is a fully step-by-step guide comes with installation file from my original [repository](github.com/msaio/hf)
+This is a fully step-by-step guide comes with installation file from my original [repository](/hf)
 
 ![sample.png](https://github.com/msaio/WSL_allIOne/blob/master/sample.png)
 
