@@ -40,7 +40,7 @@ Then done.
 ##### WSL 2: You need to change WSL to version 2 or the system will install WSL 1 as default.
 Open Powershell or CMD and type:
 ```powershell
-wsl wsl --set-default-version 2
+wsl --set-default-version 2
 ```
 ##### * NOTE: Of course, you can run both WSL 1 and WSL 2 on your machine.
 
