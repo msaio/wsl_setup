@@ -131,7 +131,7 @@ check_pulseaudio
 
 
 ### V. Last but not least, the powerful tmux.
-I prefer [OhMyTmux](github.com/gpakosz/.tmux) from: github.com/gpakosz/.tmux
+I prefer [OhMyTmux](https://github.com/gpakosz/.tmux) from: github.com/gpakosz/.tmux
 
 
 ## --------------------------------------
