@@ -80,9 +80,9 @@ One more things, you can install vscode in Windows and call it from WSL. Microso
 ### III. On the third, I give you 2 most famous shell: BASH and ZSH.
 In this installation, there are:
 
-[Bash-it](github.com/Bash-it/bash-it) from github.com/Bash-it/bash-it
+[Bash-it](https://github.com/Bash-it/bash-it) from github.com/Bash-it/bash-it
 
-[OhMyZSH](github.com/ohmyzsh/ohmyzsh) from github.com/ohmyzsh/ohmyzsh
+[OhMyZSH](https://github.com/ohmyzsh/ohmyzsh) from github.com/ohmyzsh/ohmyzsh
 
 I prefer Bash-it because i did more personal config in .bashrc file than in .zshrc .
 
