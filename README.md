@@ -1,6 +1,6 @@
 # WSL_allInOne
 
-This is a fully step-by-step guide comes with installation file from my original [repository](github.com/msaio/hf)
+This is a fully step-by-step guide comes with installation file from my original [repository](https://github.com/msaio/hf)
 
 ![sample.png](https://github.com/msaio/WSL_allIOne/blob/master/sample.png)
 
@@ -40,7 +40,7 @@ Then done.
 ##### WSL 2: You need to change WSL to version 2 or the system will install WSL 1 as default.
 Open Powershell or CMD and type:
 ```powershell
-wsl wsl --set-default-version 2
+wsl --set-default-version 2
 ```
 ##### * NOTE: Of course, you can run both WSL 1 and WSL 2 on your machine.
 
@@ -80,9 +80,9 @@ One more things, you can install vscode in Windows and call it from WSL. Microso
 ### III. On the third, I give you 2 most famous shell: BASH and ZSH.
 In this installation, there are:
 
-[Bash-it](github.com/Bash-it/bash-it) from github.com/Bash-it/bash-it
+[Bash-it](https://github.com/Bash-it/bash-it) from github.com/Bash-it/bash-it
 
-[OhMyZSH](github.com/ohmyzsh/ohmyzsh) from github.com/ohmyzsh/ohmyzsh
+[OhMyZSH](https://github.com/ohmyzsh/ohmyzsh) from github.com/ohmyzsh/ohmyzsh
 
 I prefer Bash-it because i did more personal config in .bashrc file than in .zshrc .
 
@@ -131,7 +131,7 @@ check_pulseaudio
 
 
 ### V. Last but not least, the powerful tmux.
-I prefer [OhMyTmux](github.com/gpakosz/.tmux) from: github.com/gpakosz/.tmux
+I prefer [OhMyTmux](https://github.com/gpakosz/.tmux) from: github.com/gpakosz/.tmux
 
 
 ## --------------------------------------
